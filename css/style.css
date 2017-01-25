@@ -1,0 +1,26 @@
+.container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	-webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+}
+
+.obj1, .obj2, .obj3, .obj4, .obj5, .obj6{
+  border: 2px solid #000;
+  width: 200px;
+  height: 210px;
+  display: block;
+  margin: 10px;
+
+}
+
+
+
+h1{
+	background-color: lightgray;
+    border: 1px solid #89818A;
+    height: 110px;
+    text-align: center;
+
+}
