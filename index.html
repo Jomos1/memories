@@ -12,21 +12,33 @@
   <h1>Better than Tinder!</h1>
 </header>
   <!-- Wrapper -->
-<div class="container">
-	<div class="obj1">ichi</div>
-	<div class="obj1">ichi</div>
-	<div class="obj2">ni</div>
-	<div class="obj2">ni</div>
-	<div class="obj3">san</div>
-	<div class="obj3">san</div>
-	<div class="obj4"></div>
-	<div class="obj4"></div>
-	<div class="obj5"></div>
-	<div class="obj5"></div>
-	<div class="obj6"></div>
-	<div class="obj6"></div>
+  <button id="start" onclick="timer()">STURT</button>
+  <div id="timer"><h3>Time: <span id="time">60</span> seconds </h3></div>
+<div class="cont" ontouchstart="this.classList.toggle('hover');"></div>
+	<div class="row1">
+		<div class="obj1"></div>
+		<div class="obj1"></div>
+		<div class="obj2"></div>
+		<div class="obj2"></div>
+		<div class="obj3"></div>
+		<div class="obj3"></div>
+	</div>
+	<div class="row2">
+		<div class="obj4"></div>
+		<div class="obj4"></div>
+		<div class="obj5"></div>
+		<div class="obj5"></div>
+		<div class="obj6"></div>
+		<div class="obj6"></div>
+	</div>
 </div>
-<button>Restart</button>
+<section class="container" >
+  <div id="card" class="flipped">
+    <figure  class="front">1</figure>
+    <figure class="back">2</figure>
+  </div>
+</section>
+<button id="flip">Restart</button>
   <!-- Link JS -->
   <script type="text/javascript" src="js/app.js"></script>
 </body>
