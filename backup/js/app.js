@@ -64,7 +64,7 @@ function memoryFlipTile(tile,val){
    var counter = 60;
    setInterval(function() {
      counter--;
-      if (counter >= 0) {
+      if (counter >= 0 && ) {
          span = document.getElementById("time");
          span.innerHTML = counter;
       } //Checking if timer hits zero 
